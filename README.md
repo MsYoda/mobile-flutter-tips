@@ -18,3 +18,11 @@ MapBox SDK - методы возвращают Future, но не всегда з
 dart run build_runner clean
 dart run build_runner build --delete-conflicting-outputs
 ```
+
+**Issue**
+
+При загрузке иконки svg в мапбокс у неё чёрнный background
+
+**Solution**
+
+Перенести тэг fill в обводку, если это возможно, убрать ненужный rect
