@@ -21,7 +21,7 @@ dart run build_runner build --delete-conflicting-outputs
 
 **Issue**
 
-При загрузке иконки svg в мапбокс у неё чёрнный background
+При загрузке иконки svg в мапбокс у неё чёрный background
 
 **Solution**
 
