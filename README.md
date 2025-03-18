@@ -26,3 +26,20 @@ dart run build_runner build --delete-conflicting-outputs
 **Solution**
 
 Перенести тэг fill в обводку, если это возможно, убрать ненужный rect
+
+**Issue**
+
+Необходимо сверстать экран с камерой с помощью пакета camera
+
+**Solution**
+
+Стэк: превью камеры на фоне, поверх рисовать UI
+
+**Issue**
+
+Persinstent bottom sheet не учитывает Safe Area внутри себя, так как сбрасывает MediaQuery.padding
+
+**Solution**
+
+Можно получить эти переменные глобально, с помощью View.of(context)
+
