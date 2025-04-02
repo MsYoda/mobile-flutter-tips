@@ -60,3 +60,11 @@ Persinstent bottom sheet не учитывает Safe Area внутри себя
 
 Выполнить pub get в модуле содержащем ассеты
 
+**Issue**
+
+Сделать текст в определённой зоне выделяемым, убирать выделние при тапе вне этой зоны
+
+**Solution**
+
+Смотерть SelectableArea и TapRegion
+
