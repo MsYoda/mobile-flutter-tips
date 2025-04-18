@@ -68,3 +68,12 @@ Persinstent bottom sheet не учитывает Safe Area внутри себя
 
 Смотерть SelectableArea и TapRegion
 
+**Issue**
+
+При wasm компиляции Flutter Web файлы .mjs не распознаются как Java Script
+
+**Solution**
+
+В случае nginx смотреть файл mime.types, можно отредактировать и копировать в контейнер.
+
+
